@@ -27,7 +27,7 @@ def SMTPFunc():
 
     # 输入Email地址和口令:
     from_addr ="www.609446687@qq.com" #input('From: ')
-    password ="akftotzevngxbcje" #input('Password: ')
+    password ="" #input('Password: ')
     #输入收件人服务器
     to_addr ="a609446687@163.com" #input('To: ')
     # 输入SMTP服务器地址:
@@ -68,7 +68,7 @@ def SMTPFunc():
 def SMTPDemo2():
     # 输入Email地址和口令:
     from_addr = "www.609446687@qq.com"  # input('From: ')
-    password = "akftotzevngxbcje"  # input('Password: ')
+    password = ""  # input('Password: ')
     # 输入收件人服务器
     to_addr = "a609446687@163.com"  # input('To: ')
     # 输入SMTP服务器地址:
@@ -116,7 +116,7 @@ def POP3Func():
     """
     # 输入邮件地址, 口令和POP3服务器地址:
     email = "www.609446687@qq.com"##input('Email: ')
-    password = "akftotzevngxbcje"#input('Password: ')
+    password = ""#input('Password: ')
     pop3_server ="pop.qq.com"# input('POP3 server: ')
     # 连接到POP3服务器:
     # server = poplib.POP3(pop3_server)
